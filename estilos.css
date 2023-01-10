@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    color: #000;
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+}
+
+nav {
+    text-align: center;
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    display: inline;
+    padding: 40px;
+}
+
+.imagem {
+    display: flex;
+    margin-left: 0;
+}
+
+img {
+    width: 400px;
+    margin-left: -25px;
+    margin-top: 70%;
+}
+
+section.texto {
+    position: relative;
+    height: 100%;
+}
+
+.livro {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 350px;
+    height: 900px;
+    background-color: #959973;
+}
+
+.texto-sobre {
+    width: 65%;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+p {
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
