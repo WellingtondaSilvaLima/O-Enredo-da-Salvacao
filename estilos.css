@@ -50,6 +50,11 @@ img {
     width: 400px;
     margin-left: -25px;
     margin-top: 70%;
+    transition: all 0.9s;
+}
+
+img:hover {
+    scale: 1.1;
 }
 
 section.texto {
