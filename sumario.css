@@ -16,29 +16,37 @@ body {
     font-size: 16px;
 }
 
-nav {
-    text-align: center;
-    margin: 40px 0;
+.menu {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
     font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
+    justify-content: center;
 }
 
 li {
-    display: inline;
-    padding: 40px;
     text-transform: uppercase;
     font-family: 'Fira Sans', sans-serif;
 }
 
-li:hover {
+a {
+    display: block;
+    padding: 25px 40px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
     background-color: #959973;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    color: azure;
     border-radius: 30px;
+}
+
+#titulo {
+    display: flex;
 }
 
 h1 {

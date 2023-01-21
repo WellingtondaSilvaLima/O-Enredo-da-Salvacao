@@ -16,40 +16,54 @@ body {
     font-size: 16px;
 }
 
-nav {
+/*#responsivo {
+    display: block;
+    color: #000;
     text-align: center;
-    margin: 40px 0;
-    font-weight: bold;
+    padding: 15px 30px;
+    margin: 15px 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
+#responsivo:hover {
+    background-color: #959973;
+    color: azure;
+}*/
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    justify-content: center;
 }
 
 li {
-    display: inline;
-    padding: 40px;
     text-transform: uppercase;
     font-family: 'Fira Sans', sans-serif;
 }
 
-li:hover {
+a {
+    display: block;
+    padding: 25px 40px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
     background-color: #959973;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    color: azure;
     border-radius: 30px;
 }
 
-.imagem {
-    display: flex;
-    margin-left: 0;
-}
-
 img {
+    align-self: center;
     width: 400px;
-    margin-left: -25px;
-    margin-top: 70%;
     transition: all 0.9s;
 }
 
@@ -58,21 +72,23 @@ img:hover {
 }
 
 section.texto {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     height: 100%;
 }
 
 .livro {
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-    width: 350px;
-    height: 900px;
+    display: flex;
+    height: calc(100% - 96px);
+    margin-left: 100px;
     background-color: #959973;
 }
 
 .texto-sobre {
-    width: 65%;
+    width: 50%;
+    margin: 0 50px;
     padding-top: 100px;
 }
 
@@ -84,8 +100,6 @@ h1 {
 
 p {
     text-align: justify;
-    padding-left: 100px;
-    padding-right: 40px;
     padding-bottom: 15px;
     font-size: 22px;
 }
